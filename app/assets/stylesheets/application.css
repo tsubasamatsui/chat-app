@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ /* paddingやborderでwidthがずれるのを防いでいる */
+ * {
+  box-sizing: border-box;
+}
